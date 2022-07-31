@@ -1,0 +1,75 @@
+
+/* Setup web */
+:root{
+    --primary--color:#F84B2F;
+    --primary--color-bold:#ee4d2d;
+    --primary--color--rgba:rgba(238, 77, 45,0.1);
+    --white-color:#fff;
+    --back-color:#000;
+    --text-color:#333;
+    --border-color:#dbdbdb;
+    --white-smoke:#f5f5f5;
+    --opacity-color:#595959;
+
+    --header-height:120px;
+    --nav-height:30px;
+    --shopee__sort-bar-position:80px;
+    --search-height: calc(var(--header-height) - var( --nav-height)  );
+    --padding-main: calc(var(--header-height) + var(--shopee__sort-bar-position) );
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    background-color: var(--white-smoke);
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    user-select: none;
+}
+
+/* Animation */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+@keyframes headerNotifyGrow{
+    from{
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes growth{
+    from{
+        transform: scale(var(--growth-from));
+    }
+    to {
+        transform: scale(var(--growth-to));
+    }
+}
+
+
+@keyframes mobileSearchHiddenToAppear{
+    from{
+        height: 0px;
+      
+    }
+    to {
+        height: 40px;
+    }
+}

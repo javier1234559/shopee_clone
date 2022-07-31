@@ -1,0 +1,118 @@
+/*========================================== Mobile and tablet======================================= */
+@media(max-width: 1023px)
+{
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    :root{
+        --header-height:60px;
+        --nav-height:0;
+        --padding-main: calc(var(--header-height) + var(--shopee__sort-bar-position)  );
+    }
+    
+    /* header-responsive */
+    
+    .search__bar {
+        margin: 0;
+    }
+    .shopee__sort-bar-mobile{
+        display: flex;
+    }
+    .shopee__sort-bar-mobile-item{
+        font-size: 1.6rem;
+    }
+
+    /* main-responsive */
+    
+
+
+}  
+/* ========================================== Tablet Horizontally ==========================================  */
+
+@media(min-width:1024px) and (max-width: 1200px){
+    .hide-on-mobile-tablet-horizon{
+        display: none;
+
+    }
+    .lz-8{
+        padding-left: 80px;
+    }
+    .lz-4{
+        padding: 5px;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+/* ========================================== Tablet ==========================================  */
+@media(min-width:740px) and (max-width:1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+    .category-mobile-btn{
+        display: block;
+        
+    }
+   
+
+}
+/* ========================================== Mobile ========================================== */
+@media (max-width :739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .app{
+            -webkit-tap-highlight-color: transparent;
+
+    }
+    /* header-responsive */
+
+    .notify{
+        position: fixed;
+        width: 100%;
+    }
+    .search__icon--cart--no--items {
+        padding: 30px;
+        top: calc(var(--header-height) + 10px );
+        right: 0;
+    }
+    .notify::before{
+        right: 40px;
+    }
+    .shopee__sort-bar-mobile-item{
+        font-size: 1.2rem;
+        padding: 0;
+    }
+    .header{
+        padding: 0;
+    }
+    .search__icon--logo-mobile{
+        margin: 0 auto;
+        width: 100px;
+    }
+
+    .category-mobile-btn{
+        display: block;
+    }
+    
+    .search-mobile-btn{
+        display: block;
+    }
+    .search__bar__full {
+        flex: 0;
+    }
+    /* .search__bar-on-mobile{
+        display: flex;
+    } */
+
+    .mobile-category{
+        display: flex;
+    }
+    .main{
+        padding-top: 0;
+    }
+
+
+    footer{
+        padding: 0 10px;
+    }
+}
