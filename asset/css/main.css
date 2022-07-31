@@ -988,7 +988,7 @@ footer{
 
 .footer__content-title-img-payment{
     padding-top: 50%;
-    background-image: url(/SHOPEE/asset/img/thanhtoan.png);
+    background-image: url(../img/thanhtoan.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
