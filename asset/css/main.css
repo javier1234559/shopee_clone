@@ -899,15 +899,15 @@
 
 /* Hình ảnh sản phẩm  */
 .product-item-img-1{
-    background-image: url(/SHOPEE/asset/img/croptop.png);
+    background-image: url(../img/croptop.png);
 }.product-item-img-2{
-    background-image: url(/SHOPEE/asset/img/chinatown-croptop.png);
+    background-image: url(../img/chinatown-croptop.png);
 }.product-item-img-3{
-    background-image: url(/SHOPEE/asset/img/pozip-croptop.png);
+    background-image: url(../img/pozip-croptop.png);
 }.product-item-img-4{
-    background-image: url(/SHOPEE/asset/img/ulzang-croptop.png);
+    background-image: url(../img/ulzang-croptop.png);
 }.product-item-img-5{
-    background-image: url(/SHOPEE/asset/img/dam.png);
+    background-image: url(../img/dam.png);
 }
 
 
@@ -995,14 +995,14 @@ footer{
 }
 .footer__content-title-img-transport{
     padding-top: 50%;
-    background-image: url(/SHOPEE/asset/img/vanchuyen.png);
+    background-image: url(../img/vanchuyen.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 .footer__content-title-img-qr-mobile-app{
     padding-top: 50%;
-    background-image: url(/SHOPEE/asset/img/QR-footer.png);
+    background-image: url(../img/QR-footer.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
